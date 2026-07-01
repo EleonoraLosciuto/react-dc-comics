@@ -3,10 +3,16 @@ import { useState } from 'react'
 import './App.css'
 
 import Header from './components/Header'
+import MainApp from './components/MainApp'
 
 function App() {
-    return <Header />
-    // Todo: <MainApp /> e <Footer />
+    return (
+        <>
+            <Header />
+            <MainApp />
+        </>
+    )
+    // to do: <Footer />
 };
 
 
