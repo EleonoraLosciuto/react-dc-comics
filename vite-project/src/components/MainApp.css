@@ -19,8 +19,18 @@
 .nav-menu ul li a {
     color: white;
     font-weight: 600;
+    font-size: 1.2rem;
+
 }
 
 .nav-menu ul li img {
-    float: left;
+    height: 50px;
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+.nav-menu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
