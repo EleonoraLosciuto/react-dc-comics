@@ -10,7 +10,7 @@
 
 .nav-menu {
     background-color: #007FFF;
-    height: 10dvh;
+    height: 15dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@
 .nav-menu ul li a {
     color: white;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 

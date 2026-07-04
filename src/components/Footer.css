@@ -1,0 +1,33 @@
+:root {
+    --colsnum: 3;
+    --gap: 20px;
+}
+
+footer {
+    background-color: black;
+    background-image: url(../../img/footer-bg.jpg);
+    color: white;
+}
+
+footer div.info-footer-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
+footer div.info-footer-menu div.info-footer-card {
+    flex-basis: calc((100% / (var(--colsnum))) - ((var(--colsnum) - 1) * var(--gap)) / var(--colsnum));
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+footer div.info-footer-menu div.info-footer-card h3 {
+    text-transform: uppercase;
+}
+
+footer div.info-footer-menu div.info-footer-card ul {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+}
