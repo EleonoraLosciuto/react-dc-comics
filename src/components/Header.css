@@ -1,25 +1,26 @@
 header {
-    width: 95dvw;
-    margin: 24px auto;
+    width: 90%;
+    padding: 24px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     font-size: 0.8rem;
 }
 
-header>* {
+header * {
     flex-grow: 0;
-    flex-shrink: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
 }
 
 nav {
-    display: flex;
     gap: 10px;
-    align-items: center;
-    min-width: 60dvw;
+    max-width: 60%;
 }
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     list-style: none;
     text-transform: uppercase;
