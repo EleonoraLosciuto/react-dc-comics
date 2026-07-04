@@ -51,6 +51,20 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
+                <div className='footer-social'>
+                    <button id='signup-btn'>
+                        Sign-up now!
+                    </button>
+                    <div className='follow-footer'>
+                        <h3>Follow us</h3>
+                        <img src="../../img/footer-facebook.png" alt="Facebook" />
+                        <img src="../../img/footer-twitter.png" alt="Twitter" />
+                        <img src="../../img/footer-youtube.png" alt="Youtube" />
+                        <img src="../../img/footer-pinterest.png" alt="Pinterest" />
+                        <img src="../../img/footer-periscope.png" alt="Periscope" />
+                    </div>
+
+                </div>
             </footer>
         </>
     )
