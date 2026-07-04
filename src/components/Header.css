@@ -1,23 +1,28 @@
+/* Header styles */
+
 header {
     width: 90%;
     padding: 24px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-size: 0.8rem;
 }
 
 header * {
     flex-grow: 0;
     flex-shrink: 1;
-    flex-wrap: wrap;
 }
+
 
 nav {
-    gap: 10px;
-    max-width: 60%;
+    max-width: 70%;
+    /* max width 70% of header + li can wrap */
 }
 
+
+/* nav items position and style */
 ul {
     display: flex;
     flex-wrap: wrap;

@@ -5,11 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Global styles */
+
 body {
     width: 100dvw;
+    font-family: "Lucida Sans", sans-serif;
+    font-style: normal;
 }
 
 .main-container {
     min-width: 520px;
-
 }
