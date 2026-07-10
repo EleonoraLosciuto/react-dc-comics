@@ -19,6 +19,13 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="info-footer-card">
+                            <h3>Shop</h3>
+                            <ul>
+                                <li>Shop DC</li>
+                                <li>Shop DC Collectibles</li>
+                            </ul>
+                        </div>
+                        <div className="info-footer-card">
                             <h3>DC</h3>
                             <ul>
                                 <li>Terms of Use</li>
@@ -44,13 +51,7 @@ const Footer = () => {
                                 <li>DC Power Visa</li>
                             </ul>
                         </div>
-                        <div className="info-footer-card">
-                            <h3>Shop</h3>
-                            <ul>
-                                <li>Shop DC</li>
-                                <li>Shop DC Collectibles</li>
-                            </ul>
-                        </div>
+
                     </div>
                     <div className="logo">
                     </div>

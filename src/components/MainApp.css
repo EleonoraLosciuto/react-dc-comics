@@ -10,7 +10,6 @@ main .content {
     display: block;
     margin: 0 auto;
     padding: 24px 0;
-    width: 90%;
     text-align: left;
     min-height: 5rem;
 }
@@ -20,23 +19,8 @@ main .content {
     width: 100%;
     min-height: 7rem;
     display: flex;
-    padding: 0 12px;
     align-items: center;
     justify-content: center;
-}
-
-.nav-menu ul li a {
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
-
-}
-
-.nav-menu ul li img {
-    height: 40px;
-    padding-left: 15px;
-    padding-right: 5px;
-    vertical-align: middle;
 }
 
 .nav-menu ul {
@@ -46,5 +30,17 @@ main .content {
     justify-content: center;
     align-items: center;
     list-style: none;
-    width: 90%;
+    gap: 35px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.nav-menu ul li img {
+    height: 40px;
+    margin-right: 7px;
+    vertical-align: middle;
 }

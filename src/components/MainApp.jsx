@@ -7,7 +7,7 @@ function MainApp() {
                 --&gt; Content goes here  &lt;--
             </div>
             <div className='nav-menu'>
-                <ul>
+                <ul className='container'>
                     <li>
                         <img src="img/buy-comics-digital-comics.png" alt="Digital Comics Logo" />
                         <a href="#">digital comics</a>

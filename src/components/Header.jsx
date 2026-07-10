@@ -1,7 +1,7 @@
 import './Header.css';
 
 function Header() {
-    return <header>
+    return <header className='container'>
         <img src="../../img/dc-logo.png" alt="DC LOGO" />
         <nav>
             <ul>
