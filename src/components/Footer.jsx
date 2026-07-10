@@ -51,8 +51,8 @@ const Footer = () => {
                                 <li>DC Power Visa</li>
                             </ul>
                         </div>
-
                     </div>
+
                     <div className="logo">
                     </div>
                 </div>
