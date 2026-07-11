@@ -15,14 +15,13 @@ footer div.footer-info {
     width: 100%;
     background-image: url(../../img/footer-bg.jpg);
     z-index: 0;
-    font-size: 0.7rem;
     background-size: cover;
 }
 
 footer div.footer-info .container {
     display: flex;
     justify-content: space-between;
-    height: 400px;
+    height: 430px;
 }
 
 /*Style and position of elements of footer info menu*/
@@ -44,6 +43,7 @@ footer div.info-footer-menu div.info-footer-card {
 footer div.info-footer-menu div.info-footer-card h3 {
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 footer div.info-footer-menu div.info-footer-card ul {
@@ -51,7 +51,17 @@ footer div.info-footer-menu div.info-footer-card ul {
     display: flex;
     flex-direction: column;
     gap: 7px;
+}
+
+footer div.info-footer-menu div.info-footer-card ul li a {
     color: lightgray;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+footer div.info-footer-menu div.info-footer-card ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* Logo background */

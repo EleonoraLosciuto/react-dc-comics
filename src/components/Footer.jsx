@@ -1,56 +1,179 @@
 import './Footer.css';
 
+
+const FooterLinks = [
+    {
+        id: 1,
+        title: "DC Comics",
+        links: [
+            {
+                id: 1,
+                title: "Characters",
+                href: "#"
+            },
+            {
+                id: 2,
+                title: "Comics",
+                href: "#"
+            },
+            {
+                id: 3,
+                title: "Movies",
+                href: "#"
+            },
+            {
+                id: 4,
+                title: "TV",
+                href: "#"
+            },
+            {
+                id: 5,
+                title: "Games",
+                href: "#"
+            },
+            {
+                id: 6,
+                title: "Videos",
+                href: "#"
+            },
+            {
+                id: 7,
+                title: "News",
+                href: "#"
+            },
+        ],
+    },
+    {
+        id: 2,
+        title: "Shop",
+        links: [
+            {
+                id: 1,
+                title: "Shop DC",
+                href: "#"
+            },
+            {
+                id: 2,
+                title: "Shop DC Collectibles",
+                href: "#"
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "DC",
+        links: [
+            {
+                id: 1,
+                title: "Terms of Use",
+                href: "#"
+            },
+            {
+                id: 2,
+                title: "Privacy Policy (New)",
+                href: "#"
+            },
+            {
+                id: 3,
+                title: "Ad Choice",
+                href: "#"
+            },
+            {
+                id: 4,
+                title: "Advertising",
+                href: "#"
+            },
+            {
+                id: 5,
+                title: "Jobs",
+                href: "#"
+            },
+            {
+                id: 6,
+                title: "Subscription",
+                href: "#"
+            },
+            {
+                id: 7,
+                title: "Talent Workshops",
+                href: "#"
+            },
+            {
+                id: 8,
+                title: "CPSC Certificates",
+                href: "#"
+            },
+            {
+                id: 9,
+                title: "Ratings",
+                href: "#"
+            },
+            {
+                id: 10,
+                title: "Shop Help",
+                href: "#"
+            },
+            {
+                id: 11,
+                title: "Contact Us",
+                href: "#"
+            },
+        ],
+    },
+    {
+        id: 4,
+        title: "Sites",
+        links: [
+            {
+                id: 1,
+                title: "DC",
+                href: "#"
+            },
+            {
+                id: 2,
+                title: "MAD Magazine",
+                href: "#"
+            },
+            {
+                id: 3,
+                title: "DC Kids",
+                href: "#"
+            },
+            {
+                id: 4,
+                title: "DC Universe",
+                href: "#"
+            },
+            {
+                id: 5,
+                title: "DC Power Visa",
+                href: "#"
+            },
+        ],
+    },
+];
+
 const Footer = () => {
     return (
         <footer>
             <div className="footer-info">
                 <div className="container">
                     <div className="info-footer-menu">
-                        <div className="info-footer-card">
-                            <h3>DC comics</h3>
-                            <ul>
-                                <li>Characters</li>
-                                <li>Comics</li>
-                                <li>Movies</li>
-                                <li>TV</li>
-                                <li>Games</li>
-                                <li>Videos</li>
-                                <li>News</li>
-                            </ul>
-                        </div>
-                        <div className="info-footer-card">
-                            <h3>Shop</h3>
-                            <ul>
-                                <li>Shop DC</li>
-                                <li>Shop DC Collectibles</li>
-                            </ul>
-                        </div>
-                        <div className="info-footer-card">
-                            <h3>DC</h3>
-                            <ul>
-                                <li>Terms of Use</li>
-                                <li>Privacy Policy (New)</li>
-                                <li>Ad Choice</li>
-                                <li>Advertising</li>
-                                <li>Jobs</li>
-                                <li>Subscription</li>
-                                <li>Talent Workshops</li>
-                                <li>CPSC Certificates</li>
-                                <li>Ratings</li>
-                                <li>Shop Help</li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                        <div className="info-footer-card">
-                            <h3>Sites</h3>
-                            <ul>
-                                <li>DC</li>
-                                <li>MAD Magazine</li>
-                                <li>DC Kids</li>
-                                <li>DC Universe</li>
-                                <li>DC Power Visa</li>
-                            </ul>
-                        </div>
+                        {
+                            FooterLinks.map(link => (
+                                <div key={link.id} className="info-footer-card">
+                                    <h3>{link.title}</h3>
+                                    <ul>
+                                        {link.links.map(element =>
+                                            <li key={element.id}>
+                                                <a href={element.href}>{element.title}</a>
+                                            </li>
+                                        )
+                                        }
+                                    </ul>
+                                </div>
+                            ))
+                        }
                     </div>
 
                     <div className="logo">
