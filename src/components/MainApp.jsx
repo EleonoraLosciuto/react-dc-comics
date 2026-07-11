@@ -5,8 +5,11 @@ function MainApp() {
     return (
         <main>
             <div className="content">
+                <div className="jumbotron">
+
+                </div>
                 <div className="container">
-                    --&gt; Content goes here  &lt;--
+                    --&gt; Content comics goes here  &lt;--
                 </div>
             </div>
 
