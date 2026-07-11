@@ -8,6 +8,7 @@ function MainApp() {
                 <div className="jumbotron">
 
                 </div>
+
                 <div className="container">
                     --&gt; Content comics goes here  &lt;--
                 </div>
