@@ -2,7 +2,7 @@ import './Header.css';
 
 function Header() {
     return <header className='container'>
-        <img src="../../img/dc-logo.png" alt="DC LOGO" />
+        <img src="img/dc-logo.png" alt="DC LOGO" />
         <nav>
             <ul>
                 <li><a href="#">Characters</a></li>
@@ -18,7 +18,7 @@ function Header() {
             </ul>
         </nav>
     </header>
-};
+}
 
 export default Header;
 

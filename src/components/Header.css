@@ -15,24 +15,22 @@ header * {
 }
 
 
-nav {
+header nav {
     max-width: 70%;
     /* max width 70% of header + li can wrap */
 }
 
 
 /* nav items position and style */
-ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    list-style: none;
     text-transform: uppercase;
 }
 
 
-ul li a {
-    text-decoration: none;
+header nav ul li a {
     color: black;
     font-weight: 600;
 }

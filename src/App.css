@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 /*CSS reset*/
 * {
     margin: 0;
@@ -8,8 +10,7 @@
 /* Global styles */
 
 body {
-    width: 100dvw;
-    font-family: "Lucida Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
 }
 
@@ -19,4 +20,16 @@ body {
 
 .container {
     max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* unset default list style on all unordered lists*/
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

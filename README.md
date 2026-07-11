@@ -1,16 +1,34 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Parte 1
+Ciao ragazzi,
+Esercizio di oggi: DC Comics (React Components)
+nome repo: react-dc-comics
 
-Currently, two official plugins are available:
+Descrizione:
+Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
+Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Note:
+Il font utilizzato è Open Sans
 
-## React Compiler
+Bonus: 
+Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# Parte 2
+Ciao ragazzi,
+Esercizio di oggi: DC Comics
+nome repo: react-dc-comics
+
+Descrizione:
+Lavoriamo sul nostro sito dei fumetti per dinamicizzare sia la navbar che i fumetti, sfruttando l’iterazione con JSX. 
+
+Per i fumetti, potrete utilizzare i dati in allegato
+Per la navbar, vi invitiamo  a ragionare su quale possa essere la struttura dati corretta
+
+Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
+
+BONUS:
+Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione!
