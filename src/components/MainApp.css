@@ -7,7 +7,7 @@ main {
 }
 
 main .content .jumbotron {
-    height: 360px;
+    height: 400px;
     background-color: rgb(40, 40, 40);
     background-image: url(/img/jumbotron.jpg);
     background-position-x: center;

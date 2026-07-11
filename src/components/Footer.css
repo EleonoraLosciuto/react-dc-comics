@@ -17,16 +17,19 @@ footer div.footer-info {
     z-index: 0;
     font-size: 0.7rem;
     background-size: cover;
-    display: flex;
-    height: 400px;
 }
 
+footer div.footer-info .container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
 
 /*Style and position of elements of footer info menu*/
 footer div.info-footer-menu {
     padding: 36px 0;
     margin-left: 5%;
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -54,12 +57,12 @@ footer div.info-footer-menu div.info-footer-card ul {
 /* Logo background */
 
 footer div.logo {
-    flex-grow: 1;
-    background-image: url(../../img/dc-logo-bg.png);
+    background-image: url(/img/dc-logo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px;
-    margin-right: 5%;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
 }
 
 
@@ -67,7 +70,10 @@ footer div.logo {
 
 footer .footer-social {
     width: 100%;
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50)
+}
+
+footer .footer-social .container {
     display: flex;
     justify-content: space-between;
     align-items: center;

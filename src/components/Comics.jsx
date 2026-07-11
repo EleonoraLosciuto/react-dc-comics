@@ -14,6 +14,7 @@ const Comics = () => {
                 ))
                 }
             </div>
+            <button id='loadMoreComics'>Load More</button>
         </section>
 
     )
