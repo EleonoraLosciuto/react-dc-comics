@@ -11,20 +11,6 @@ main section.comics-cards-section {
     margin-bottom: 15px;
 }
 
-main section.comics-cards-section .comics-cards img {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: top;
-    margin-bottom: 10px;
-}
-
-main section.comics-cards-section .comics-cards p {
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
 main section.comics-cards-section .comics-cards {
     display: grid;
     grid-template-columns: repeat(6, 1fr);

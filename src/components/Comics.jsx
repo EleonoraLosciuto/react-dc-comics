@@ -1,5 +1,6 @@
 import './Comics.css';
 import comics from '../../comics.js';
+import ComicCard from './ComicCard.jsx';
 
 const Comics = () => {
     return (
@@ -7,10 +8,7 @@ const Comics = () => {
             <h3>Current Series</h3>
             <div className="comics-cards">
                 {comics.map(comic => (
-                    <div key={comic.id} className='comic-card'>
-                        <img src={comic.thumb} alt={comic.series} />
-                        <p>{comic.series}</p>
-                    </div>
+                    <ComicCard key={comic.id} info={comic} />
                 ))
                 }
             </div>
