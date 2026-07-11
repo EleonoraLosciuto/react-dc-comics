@@ -1,5 +1,6 @@
 import './MainApp.css'
 import NavMenu from './NavMenu.jsx'
+import Comics from './Comics.jsx'
 
 function MainApp() {
     return (
@@ -10,7 +11,7 @@ function MainApp() {
                 </div>
 
                 <div className="container">
-                    --&gt; Content comics goes here  &lt;--
+                    <Comics />
                 </div>
             </div>
 

@@ -12,6 +12,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
+    min-width: 1000px;
 }
 
 .main-container {

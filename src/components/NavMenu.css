@@ -4,7 +4,6 @@
     min-height: 7rem;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .nav-menu ul {
@@ -12,9 +11,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    list-style: none;
-    gap: 35px;
+    gap: 50px;
 }
 
 .nav-menu ul li a {
