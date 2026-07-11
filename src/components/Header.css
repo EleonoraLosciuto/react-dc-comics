@@ -1,36 +1,56 @@
 /* Header styles */
 
 header {
-    padding: 24px;
     margin: 0 auto;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
-}
-
-header * {
-    flex-grow: 0;
-    flex-shrink: 1;
+    height: 130px;
 }
 
 
 header nav {
     max-width: 70%;
-    /* max width 70% of header + li can wrap */
+    /* nav takes max 70% of header width */
 }
+
 
 
 /* nav items position and style */
-header nav ul {
+
+header nav,
+header nav ul,
+header nav ul li {
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    text-transform: uppercase;
+    align-items: center;
+    gap: 15px;
 }
 
 
+header nav ul li {
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    /* transparente borders added in order to correctly align all links when the active link border-bottom is added */
+
+}
+
+/* Style for (inactive) nav links */
 header nav ul li a {
+    text-decoration: none;
     color: black;
     font-weight: 600;
+}
+
+/* style for active nav link */
+header nav ul li.active {
+    border-bottom: 5px solid #007FFF;
+}
+
+header nav ul li.active a {
+    color: #007FFF;
 }
