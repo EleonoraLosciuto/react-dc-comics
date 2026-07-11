@@ -26,9 +26,11 @@ header nav ul li {
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 15px;
 }
 
+header nav ul {
+    gap: 15px;
+}
 
 header nav ul li {
     list-style: none;
