@@ -1,42 +1,93 @@
-# React + Vite
+# DC Comics (React Components)
 
-# Parte 1
-Ciao ragazzi,
-Esercizio di oggi: DC Comics (React Components)
-nome repo: react-dc-comics
+This is the 23rd exercise I have completed as part of the web development master. It focuses on advanced React architecture, component reusability, structural dynamic rendering using JSX iterations, data propagation via props, and hierarchical data centralization.
 
-Descrizione:
-Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
-Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
+Repository name: `react-dc-comics`
 
-Note:
-Il font utilizzato è Open Sans
+## 📝 Task
 
-Bonus: 
-Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+The objective of this multi-phased assignment is to build a structured, dynamic, and fully styled replica of the DC Comics homepage layout using React components.
 
+### Milestone 1: Layout & Component Structure
+* **Scaffolding:** Initialize a new React project using the Vite build toolchain.
+* **Architecture:** Define and arrange the foundational components needed to construct the layout grid (Header, Main, NavMenu, Footer).
+* **Typography:** Integrate the *Open Sans* font family across the application styling sheets.
+* **Priority:** Solidify structural element placement prior to executing final CSS aesthetics.
 
+### Milestone 2: Dynamic Content & JSX Iteration
+* **Navbar Dinamicization:** Implement data collections to drive the global navigation components dynamically using JSX map loops.
+* **Content Population:** Bind local data arrays to automatically render comic series entries.
+* **Polishing:** Finalize comprehensive layout properties, spacing systems, and decorative visual details utilizing individual component CSS modules.
 
-# Parte 2
-Ciao ragazzi,
-Esercizio di oggi: DC Comics
-nome repo: react-dc-comics
+### Milestone 3: Reusable Comic Cards & Props
+* **Component Abstraction:** Design a dedicated, isolated `ComicCard` component responsible for displaying individual comic item cards.
+* **Data Flow:** Configure the card child component to receive single comic entity datasets dynamically from its parent wrapper via custom React props.
 
-Descrizione:
-Lavoriamo sul nostro sito dei fumetti per dinamicizzare sia la navbar che i fumetti, sfruttando l’iterazione con JSX. 
+### 🌟 Bonus
+* **Icon Banner Component:** Create an isolated utility banner component to manage the lower blue section holding interactive merchant icons.
+* **Dynamic Footer Links:** Structure a matrix data array representing multi-category footer directory columns and loop over them via JSX iterations.
+* **Data Centralization:** Centralize global datasets inside the root `App.jsx` component level, distributing records downwards to target UI nodes through cascading props.
 
-Per i fumetti, potrete utilizzare i dati in allegato
-Per la navbar, vi invitiamo  a ragionare su quale possa essere la struttura dati corretta
+## 📷 Reference Webpage
 
-Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
+![Project Screenshot](./screenshot.png)
 
-BONUS:
-Immaginare e creare la struttura dati per i link nel footer e realizzarli tramite l’iterazione!
+## 📂 Project Structure
 
-# Parte 3
-Descrizione:
-Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato. Fate in modo che il componente riceva i dati del singolo fumetto come props.
+```text
+react-dc-comics/
+├── node_modules/
+├── public/
+│   ├── img/
+│   │   ├── buy-comics-digital-comics.png
+│   │   ├── buy-comics-merchandise.png
+│   │   ├── buy-comics-shop-locator.png
+│   │   ├── buy-comics-subscriptions.png
+│   │   ├── buy-dc-power-visa.svg
+│   │   ├── dc-logo-bg.png
+│   │   ├── dc-logo.png
+│   │   ├── footer-bg.jpg
+│   │   ├── footer-facebook.png
+│   │   ├── footer-periscope.png
+│   │   ├── footer-pinterest.png
+│   │   ├── footer-twitter.png
+│   │   ├── footer-youtube.png
+│   │   └── jumbotron.jpg
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── ComicCard.css
+│   │   ├── ComicCard.jsx
+│   │   ├── Comics.css
+│   │   ├── Comics.jsx
+│   │   ├── Footer.css
+│   │   ├── Footer.jsx
+│   │   ├── Header.css
+│   │   ├── Header.jsx
+│   │   ├── MainApp.css
+│   │   ├── MainApp.jsx
+│   │   ├── NavMenu.css
+│   │   └── NavMenu.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── .oxlintrc.json
+├── comics.js
+├── dc-comics-empty-layout.png
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+├── screenshot.png
+└── vite.config.js
+```
 
-Nota: Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
-
-Bonus: Provare a centralizzare i dati facendoli partire tutti da App.jsx e passandoli via prop ai vari componenti che li necessitano
+## 🛠️ Technologies Used
+* HTML5: Semantic structure.
+* CSS3: Custom styling and layout.
+* JavaScript (ES6): Logic, data processing, and DOM manipulation.
+* React: Frontend library framework.
+* Vite: Build tool and development server.
+* VSCode: IDE.
